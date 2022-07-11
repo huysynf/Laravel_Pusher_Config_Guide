@@ -27,6 +27,7 @@
     });
 ```
 
+# Custom hàm authenticate đối với các private chanel
 ```php 
 Route::post('pusher/auth', function (\Illuminate\Http\Request $request){
     $user = auth()->user();
@@ -43,7 +44,7 @@ Route::post('pusher/auth', function (\Illuminate\Http\Request $request){
 });
 
 ```
-# cách 2 thêm gauth vào private channel ví dụ 
+# Ví dụ về config chanel ở chanel.php
 
 ```php
 
